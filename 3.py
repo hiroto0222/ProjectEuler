@@ -13,7 +13,6 @@ def compute():
     n = 600851475143
     while True:
         p = smallest_prime_factor(n)
-        print(p)
         if p < n:
             n //= p
         else:
