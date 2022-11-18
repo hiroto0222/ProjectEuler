@@ -9,7 +9,7 @@ package java_solutions;
 public class q001 {
 	
 	public static void main(String[] args) {
-		System.out.println(new q001().compute());
+        System.out.println(new q001().compute());
 	}
 	
 	public int compute() {
@@ -19,6 +19,7 @@ public class q001 {
                 sum += i;
             }
         }
+        
         return sum;
 	}
 }
