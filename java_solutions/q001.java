@@ -7,7 +7,6 @@
 package java_solutions;
 
 public class q001 {
-	
 	public static void main(String[] args) {
         System.out.println(new q001().compute());
 	}
