@@ -27,6 +27,7 @@
 # 4 / 7 -> 40 / 7 -> 5, 5
 # 5 / 7 -> 50 / 7 -> 7, 1
 # 1 / 7 -> repeats...
+# keep track of seen using hashmap and check for cycle.
 
 import itertools
 
