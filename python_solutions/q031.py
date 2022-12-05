@@ -16,8 +16,9 @@ def compute():
     dp = [1] + [0] * target
     
     for i in range(len(coins)):
-        for j in range(i, target + 1):
+        for j in range(coins[i], target + 1):
             dp[j] += dp[j - coins[i]]
+    print(dp)
     return dp[target]
 
 
