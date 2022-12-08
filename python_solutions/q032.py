@@ -21,7 +21,7 @@ def has_pandigital_prod(n):
     for i in range(1, int(math.sqrt(n)) + 1):
         if n % i == 0:
             temp = str(i) + str(n) + str(n // i)
-            if sorted(temp) == "123456789":
+            if "".join(sorted(temp)) == "123456789":
                 return True
     return False
 
